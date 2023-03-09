@@ -1,4 +1,4 @@
-# 42Project---DiscoveryPiscine
+# 42Project---Discovery_Piscine
 
 This 42 Paris Project is an introduction to basic web programming languages.  
 It is divided into **3** cells :  
