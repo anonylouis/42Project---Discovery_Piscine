@@ -1,0 +1,77 @@
+body {
+	background-color: rgb(255, 233, 173);
+}
+
+#window {
+	display: flex;
+}
+
+#menu {
+	width: max-content;
+}
+
+#dropdown_menu {
+	color: rgb(121, 0, 0);
+	font-weight: bold;
+	background-color: rgba(0, 0, 0, 0.452);
+	border-width : 3px 3px 2px 3px;
+	border-style: solid;
+	border-color: black;
+	padding: 4px 12px;
+}
+
+#dropdown_content {
+	display: none;
+	border-width: 0px 2px 3px 2px;
+	border-style: solid;
+}
+
+.content {
+	border-width: 1px 1px 0px 1px;
+	border-style: solid;
+	padding: 2px 12px;
+}
+
+.bread  {
+	--color: 200, 138, 81;
+	--margin_img: 3%;
+	background-color: rgb(var(--color));
+}
+
+.cheese {
+	--color: 255, 202, 55;
+	background-color: rgb(var(--color));
+}
+
+.ham {
+	--color: 255, 136, 156;
+	--margin_img: 8%;
+	background-color: rgb(var(--color));
+}
+
+.mustard {
+	--color: 255, 165, 0;
+	--margin_img: 10%;
+	background-color: rgb(var(--color));
+}
+
+#img_sandwich {
+	display: none;
+	width: 31.8%;
+	margin-left: 5%;
+	border: 1px solid;
+}
+
+/* events */
+
+#menu:hover #dropdown_content {
+	display: block;
+}
+
+#dropdown_menu:hover {
+	background-color: rgba(0, 0, 0, 0.400);
+}
+
+.content:hover {
+	background-color: rgba(var(--color), 0.6);
+}

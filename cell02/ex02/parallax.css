@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'houseOfTheDragons'; /*a name to be used later*/
+    src: url('./Game\ of\ Thrones.ttf'); /*URL to font*/
+}
+
+html, body
+{
+    width: 100%;
+}
+
+.first_img {
+	background-image: url("https://api.time.com/wp-content/uploads/2022/10/emma-d-arcy-matt-smith-queen-rhaenyra-house-of-the-dragon.jpg");
+	width: 100%;
+	height: 1100px;
+
+
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	color: red;
+	font-size: 50px;
+	font-family: 'houseOfTheDragons';
+}
+
+.transition {
+	height: 300px;
+	background-color: black;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	color: red;
+	font-size: 4.7vw;
+	font-family: 'houseOfTheDragons';
+}
+
+.second_img {
+	background-image: url("https://boundingintocomics.com/wp-content/uploads/2022/09/2022.09.26-06.26-boundingintocomics-633146272e524.jpg");
+	width: 100%;
+	height: 1100px;
+
+
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	color: red;
+	font-size: 50px;
+	font-family: 'houseOfTheDragons';
+}
